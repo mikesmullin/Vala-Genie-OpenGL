@@ -18,9 +18,6 @@ int main () {
 
 	// Main loop
 	while (running) {
-
-		Thread.usleep (1000 * 3);
-
 		// OpenGL rendering goes here...
 		glClear (GL_COLOR_BUFFER_BIT);
 		glBegin (GL_TRIANGLES);
